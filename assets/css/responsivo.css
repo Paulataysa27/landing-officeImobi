@@ -1,0 +1,39 @@
+@media screen and (max-width:1600px){
+    #p1{
+        position: relative;
+        right: 49.1%;
+    }
+    
+    #p2{
+        position: absolute;
+        left: 24.5%;
+    }
+
+    .main{
+        left: 22%;
+        top: 28%;
+    }
+
+    .logo{
+        right: 38%;
+    }
+
+    #bg1{
+        display: none;
+    }
+    #bg2{
+        display: block;
+        position: absolute;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    footer{
+        position: absolute;
+        background-color: rgb(5, 5, 5);
+        bottom: -100%;
+        padding: 35px;
+        width: 100%;
+        color: white;
+    }
+}
