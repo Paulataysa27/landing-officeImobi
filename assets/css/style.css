@@ -136,7 +136,7 @@ form{
 
 
 .input-box{
-    width: 30%;
+    width: 35%;
     display: flex;
     flex-direction: column;
     margin-left: 10%;
@@ -178,7 +178,7 @@ form{
 
 #b2{
     position: absolute;
-    bottom: 35%;
+    bottom: 30%;
     left: 10%;
 }
 
