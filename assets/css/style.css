@@ -85,11 +85,6 @@ body::before{
     top: 48%;
 }
 
-#f7{
-    position: absolute;
-    left: 25%;
-    top: 65%;
-}
 
 #l1,#l2,#l3,#l4,#l5,#l6,#l7{
     font-size: 15px;
@@ -138,6 +133,7 @@ form{
     top: 23%;
     justify-content: center;
     align-items: center;
+    
 }
 
 

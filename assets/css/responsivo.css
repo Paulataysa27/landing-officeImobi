@@ -1,3 +1,12 @@
+@media screen and (max-width:1918px){
+    #b2{
+        position: absolute;
+        bottom:20%;
+        left: 10%;
+    }
+}
+
+
 @media screen and (min-width:1100px) and (max-width:1280px) {
     .container, .form{
         overflow-y: hidden;
