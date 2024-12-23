@@ -82,14 +82,9 @@ body::before{
 #f6{
     position: absolute;
     right: 19%;
-<<<<<<< HEAD
     top: 48%;
 }
 
-=======
-    top: 46%;
-}
->>>>>>> 20d044d4f253876fbdd5506c772e946cc6021440
 
 #l1,#l2,#l3,#l4,#l5,#l6,#l7{
     font-size: 15px;
