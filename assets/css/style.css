@@ -64,27 +64,32 @@ body::before{
 #f3{
     position: absolute;
     left: 0;
-    top: 27%;
+    top: 25%;
 }
 
 #f4{
     position: absolute;
     right: 19%;
-    top: 27%;
+    top: 25%;
 }
 
 #f5{
     position: absolute;
     left: 0;
-    top: 48%;
+    top: 46%;
 }
 
 #f6{
     position: absolute;
     right: 19%;
+<<<<<<< HEAD
     top: 48%;
 }
 
+=======
+    top: 46%;
+}
+>>>>>>> 20d044d4f253876fbdd5506c772e946cc6021440
 
 #l1,#l2,#l3,#l4,#l5,#l6,#l7{
     font-size: 15px;
@@ -95,7 +100,7 @@ body::before{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 5%;
+    margin-top: 7%;
 }
 
 .form-image img{
@@ -122,15 +127,15 @@ form{
 .form-header{
     width: 100%;
     height: 20vh;
-    padding-left: 7%;
+    padding-left: 9%;
     padding-top: 2%;
 }
 
 .input-goup{
     position: absolute;
     width: 100%;
-    height:64vh;
-    top: 23%;
+    height:70vh;
+    top: 20%;
     justify-content: center;
     align-items: center;
     
@@ -138,7 +143,7 @@ form{
 
 
 .input-box{
-    width: 30%;
+    width: 35%;
     display: flex;
     flex-direction: column;
     margin-left: 10%;
@@ -180,7 +185,7 @@ form{
 
 #b2{
     position: absolute;
-    bottom: 17%;
+    bottom: 27%;
     left: 10%;
 }
 
