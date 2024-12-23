@@ -1,39 +1,238 @@
-@media screen and (max-width:1600px){
-    #p1{
-        position: relative;
-        right: 49.1%;
+@media screen and (min-width:1100px) and (max-width:1280px) {
+    .container, .form{
+        overflow-y: hidden;
+    }
+    #t1{
+        font-size: 25px;
+        margin: 1% 18%;
     }
     
-    #p2{
+    #t2{
+        font-size: 20px;
+        margin: 8% 28.5%;
+    }
+    
+    #t3{
+        font-size: 18px;
+        margin: 14% 15% 0;
+    }
+
+    .container{
+        position:relative;
+        width: 80%;
+        height: 90vh;
+        background-color: #084994;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+        border-radius: 10px;
+    }
+
+    .form-image{
+        margin-top: 0;
+    }
+
+    .form{
         position: absolute;
-        left: 24.5%;
+        width: 50%;
+        height: 90vh;
+        justify-content: center;
+        background-color: rgb(231, 229, 229);
     }
 
-    .main{
-        left: 22%;
-        top: 28%;
+    .form-header{
+        height: 20vh;
+    }
+    form{
+        height: 85vh;
+        overflow-y: hidden;
     }
 
-    .logo{
-        right: 38%;
-    }
-
-    #bg1{
-        display: none;
-    }
-    #bg2{
-        display: block;
+    .input-goup{
         position: absolute;
-        background-size: cover;
-        background-repeat: no-repeat;
+        top: 18%;
+        height: 70vh;
+        margin-top: 2%;
     }
 
-    footer{
+    .input-box input{
+        border-radius: 10px;
+        border: 0.5px solid #292727;
+        box-shadow: 1px 1px 6px #0000001c;
+    }
+
+    #f1{
         position: absolute;
-        background-color: rgb(5, 5, 5);
-        bottom: -100%;
-        padding: 35px;
+        left: 0;
+        top: 5%;
+    }
+    
+    #f2{
+        position: absolute;
+        right: 19%;
+        top: 5%;
+    }
+    
+    #f3{
+        position: absolute;
+        left: 0;
+        top: 25%;
+    }
+    
+    #f4{
+        position: absolute;
+        right: 19%;
+        top: 25%;
+    }
+    
+    #f5{
+        position: absolute;
+        left: 0;
+        top: 46%;
+    }
+    
+    #f6{
+        position: absolute;
+        right: 19%;
+        top: 46%;
+    }
+    
+    #f7{
+        position: absolute;
+        left: 25%;
+        top: 64%;
+        text-align: center;
+    }
+
+
+    #b2{
+        width: 55%;
+        height: 10%;
+        position: absolute;
+        bottom: 3.5%;
+        left: 23%;
+    }
+
+    .enviar-button button{
+        background-color:#0c63c5;
+        font-weight: bold;
+        font-size: 18px;
+        overflow-y: hidden;
+    }
+    
+}
+
+@media screen and (min-width:1300px) and (max-width:1560px) {
+
+    .container, .form{
+        overflow-y: hidden;
+    }
+    #t1{
+        font-size: 30px;
+        margin: 2% 18%;
+    }
+    
+    #t2{
+        font-size: 25px;
+        margin: 9% 28.5%;
+    }
+    
+    #t3{
+        font-size: 20px;
+        margin: 15.5% 17% 0;
+    }
+
+    .container{
+        position:relative;
+        width: 80%;
+        height: 90vh;
+        background-color: #084994;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+        border-radius: 10px;
+    }
+
+    .form-image{
+        margin-top: 5%;
+    }
+
+    .form{
+        position: absolute;
+        width: 50%;
+        height: 90vh;
+        justify-content: center;
+        background-color: rgb(231, 229, 229);
+    }
+
+    .form-header{
+        height: 20vh;
+    }
+    form{
+        height: 85vh;
+        overflow-y: hidden;
+    }
+
+    .input-goup{
+        position: absolute;
+        top: 18%;
+        height: 70vh;
+        margin-top: 4%;
+    }
+
+    .input-box input{
+        border-radius: 10px;
+        border: 0.5px solid #292727;
+        box-shadow: 1px 1px 6px #0000001c;
         width: 100%;
-        color: white;
     }
+
+    #f1{
+        position: absolute;
+        left: 0;
+        top: 5%;
+    }
+    
+    #f2{
+        position: absolute;
+        right: 19%;
+        top: 5%;
+    }
+    
+    #f3{
+        position: absolute;
+        left: 0;
+        top: 25%;
+    }
+    
+    #f4{
+        position: absolute;
+        right: 19%;
+        top: 25%;
+    }
+    
+    #f5{
+        position: absolute;
+        left: 0;
+        top: 46%;
+    }
+    
+    #f6{
+        position: absolute;
+        right: 19%;
+        top: 46%;
+    }
+    
+    #f7{
+        position: absolute;
+        left: 25%;
+        top: 62%;
+        text-align: center;
+    }
+
+
+    #b2{
+        width: 60%;
+        height: 10%;
+        position: absolute;
+        bottom: 7%;
+        left: 20%;
+    }
+    
 }

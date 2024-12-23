@@ -8,53 +8,64 @@
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/responsivo.css">
 </head>
-    
-</body>
 
 <body>
-    <div class="bg">
-        <img id="bg1" src="./assets/imagens/bg-office(1920).png" alt="">
-    </div>
-    <div class="bg2">
-        <img id="bg2" src="./assets/imagens/bg-office(1500).png" alt="">
-    </div>
-
-    <div class="superior">
-        <p id="p1">Caso sua autitoria seja para <b>CPF, clique</b></p>
-        <p id="p2">no botão ao lado &rarr;</p> 
-        <button id="b1"><b>CPF</b></button>
-    </div>
    
-    <div class="logo"></div>
-    <footer>
-        <p>ahjkefnjdsvnc sdkm cdkmcijd jidnafvnwkedv nijnefijwevndw nadcnajd</p>
-    </footer>
+    <div class="container">
+        <div class="form-image">
+            <img src="./assets/imagens/bg.png" alt="">
+        </div>
+
+        <div class="form">
+            <form>
+                <div class="form-header">
+                    <h2 id="t1">Solicitação de autitoria</h2>
+                    <h2 id="t2">Pessoa jurídica</h2>
+                    <p id="t3">Preencha os dados da sua empresa</p>
+                </div>
+
+                <div class="input-goup">    
+                    <div class="input-box" id="f1">
+                        <label for="name" id="l1">Nome de Usuário:*</label>
+                        <input type="text" placeholder="Digite seu nome de Usuário" required id="i1">
+                    </div>
     
-    
-    <div class="main">
-            <div class="form">
-                <h1 id="t1">Solicitação<br> de autitoria</h1>
-                <h1 id="t2">Pessoa jurídica</h1>
-                <h2>Preencha os dados da sua empresa</h2>
-        
-                <form>
-                    <label for="name">Nome de Usuário:*</label>
-                    <input type="text" required>
-                    <label for="name">E-mail de Usuário:*</label>
-                    <input type="email" name="" required>
-                    <label for="name">Estado:*</label>
-                    <input type="text" name="" required>
-                    <label for="name">Nome Completo:*</label>
-                    <input type="text" name="" required>
-                    <label for="name">Email:*</label>
-                    <input type="email" required name="">
-                    <label for="name">CNPJ:*</label>
-                    <input type="text" name="" required>
-                    <label for="name">9+9=?*</label>
-                    <input type="number" required>
-                    <button id="b2">Enviar</button>
-                </form>
-            </div>
+                    <div class="input-box" id="f2">
+                        <label for="email" id="l2">E-mail de Usuário:*</label>
+                        <input type="email" placeholder="Digite seu email de Usuário" required id="i2">
+                    </div>   
+                            
+                    <div class="input-box" id="f3">
+                        <label for="estado" id="l3">Estado:*</label>
+                        <input type="text" placeholder="Digite seu Estado" required id="i3">
+                    </div>
+                            
+                    <div class="input-box" id="f4">
+                        <label for="nome-completo" id="l4">Nome Completo:*</label>
+                        <input type="text" placeholder="Digite seu nome completo" required id="i4">
+                    </div>
+                            
+                    <div class="input-box" id="f5">
+                        <label for="email" id="l5">Email:*</label>
+                        <input type="email" required placeholder="Digite seu email" id="i5">
+                    </div>
+                            
+                    <div class="input-box" id="f6">
+                        <label for="cnpj" id="l6">CNPJ:*</label>
+                        <input type="text" placeholder="Digite seu CNPJ" required id="i6">
+                    </div>
+                            
+                    <div class="input-box" id="f7">
+                        <label for="numero" id="l7">9+9=?*</label>
+                        <input type="number" placeholder="Digite a resposta correta" required id="i7">
+                    </div>
+
+                    <div class="enviar-button">
+                        <button type="submit" id="b2">Enviar</button>
+                    </div>
+                </div>
+            </form>
+        </div>
     </div>
     
 </body>
