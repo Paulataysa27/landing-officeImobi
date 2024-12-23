@@ -64,31 +64,25 @@ body::before{
 #f3{
     position: absolute;
     left: 0;
-    top: 27%;
+    top: 25%;
 }
 
 #f4{
     position: absolute;
     right: 19%;
-    top: 27%;
+    top: 25%;
 }
 
 #f5{
     position: absolute;
     left: 0;
-    top: 48%;
+    top: 46%;
 }
 
 #f6{
     position: absolute;
     right: 19%;
-    top: 48%;
-}
-
-#f7{
-    position: absolute;
-    left: 25%;
-    top: 65%;
+    top: 46%;
 }
 
 #l1,#l2,#l3,#l4,#l5,#l6,#l7{
