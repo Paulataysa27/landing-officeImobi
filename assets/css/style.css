@@ -109,7 +109,7 @@ body::before{
     width: 50%;
     height: 80vh;
     justify-content: center;
-    background-color: rgb(231, 229, 229);
+    background-color: white;
 }
 
 form{
