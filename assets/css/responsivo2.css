@@ -126,6 +126,7 @@
     }
 
     #p1{
+        display: flex;
         position: absolute;
         font-size: 25px;
         text-align: center;
@@ -135,11 +136,13 @@
     
     
     #p2{
+        display: flex;
         position: absolute;
         width: 100%;
         font-size: 22px;
         text-align: center;
         top: 33%;
+        left: 35%;
     }
 
     #img1{
@@ -147,7 +150,7 @@
         position: absolute;
         width: 300px;
         top: 52%;
-        left: 2.5%;
+        left: 2%;
     }
 
     #img2{
@@ -156,6 +159,10 @@
         width: 300px;
         top: -8%;
         left: 3%;
+    }
+
+    h1,h2,h3{
+        display: none;
     }
  
 }

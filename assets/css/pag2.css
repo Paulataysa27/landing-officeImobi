@@ -53,7 +53,8 @@ body::before{
     border-radius: 0 10px 10px 0;
 }
 
-#p1, #p2{
+h1, h2, h3{
+    display: flex;
     font-size: 30px;
     text-align: center;
     justify-content: center;
@@ -71,5 +72,9 @@ body::before{
 }
 
 #img2{
+    display: none;
+}
+
+#p1, #p2{
     display: none;
 }
