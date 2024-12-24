@@ -53,10 +53,23 @@ body::before{
     border-radius: 0 10px 10px 0;
 }
 
-.agradecimento h1, h2, h3{
+#p1, #p2{
     font-size: 30px;
     text-align: center;
     justify-content: center;
     position: relative;
     top: 33%;
+}
+
+#p1{
+    color: #084994;
+    font-weight: bold;
+}
+
+#img1{
+    display: none;
+}
+
+#img2{
+    display: none;
 }

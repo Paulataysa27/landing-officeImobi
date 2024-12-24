@@ -242,3 +242,114 @@
     }
     
 }
+
+@media screen and (min-width:320px) and (max-width:480px){
+    .form-image{
+        display: none;
+    }
+
+    .form{
+        position: absolute;
+        text-align: center;
+        top: 0;
+        width: 100%;
+        height: 80vh;
+        justify-content: center;
+        background-color: white;
+    }
+
+    #t1{
+        width: 100%;
+        font-size: 25px;
+        position: absolute;
+        right: -20%;
+        color: #084994;
+        z-index: 1;
+    }
+    
+    #t2{
+        width: 100%;
+        font-size: 20px;
+        position: absolute;
+        top: 5%;
+        right: -28%;
+        color: red;
+    }
+    
+    #t3{
+        width: 100%;
+        font-size: 16px;
+        position: absolute;
+        top: 7%;
+        right: -22%;
+    }
+
+    .form-header{
+        width: 100%;
+        height: 20vh;
+        padding-left: 9%;
+        padding-top: 5%;
+    }
+
+    .input-goup{
+        position: absolute;
+        width: 100%;
+        height:70vh;
+        top: 18%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #f1{
+        position: absolute;
+        left: -1%;
+        top: 5%;
+    }
+    
+    #f2{
+        position: absolute;
+        right: 17%;
+        top: 5%;
+    }
+    
+    #f3{
+        position: absolute;
+        left: -1%;
+        top: 27%;
+    }
+    
+
+    #f4{
+        position: absolute;
+        right: 17%;
+        top: 27%;
+    }
+    
+    #f5{
+        position: absolute;
+        left: -1%;
+        top: 48%;
+    }
+    
+    #f6{
+        position: absolute;
+        right: 17%;
+        top: 48%;
+    }
+
+    .input-box{
+        width: 39%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 10%;
+        margin-right: -10%;
+    }
+    
+    .input-box input{
+        margin: 0.6rem 0;
+        padding: 0.8rem 1.2rem;
+        border-radius: 10px;
+        border: 0.5px solid #292727;
+        box-shadow: 1px 1px 6px #0000001c;
+    }
+}
