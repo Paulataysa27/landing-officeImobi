@@ -166,7 +166,7 @@ form{
     color: #000000c0;
 }
 
-.enviar-button button{
+.enviar-button a{
     width: 80%;
     margin-top: 2.5rem;
     border: none;
@@ -175,7 +175,10 @@ form{
     border-radius: 5px;
     cursor: pointer;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    color: #292727;
 }
 
 #b2{
@@ -184,7 +187,7 @@ form{
     left: 10%;
 }
 
-.enviar-button button:hover{
+.enviar-button a:hover{
     background-color: #084994;
     color: white;
 }

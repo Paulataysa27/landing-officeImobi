@@ -1,0 +1,62 @@
+body{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../imagens/bg-office\(1920\).png);
+    overflow: hidden;
+}
+
+body::before{
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(8px);
+        backdrop-filter: blur(8px);
+    }
+
+.container{
+    position:relative;
+    width: 80%;
+    height: 80vh;
+    background-color: #084994;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+    border-radius: 10px;
+}
+
+.form-image{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7%;
+}
+
+.form-image img{
+    width: 30rem;
+}
+
+.agradecimento{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50%;
+    height: 80vh;
+    justify-content: center;
+    background-color: white;
+    border-radius: 0 10px 10px 0;
+}
+
+.agradecimento h1, h2, h3{
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    top: 33%;
+}
